@@ -1,0 +1,52 @@
+
+body {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+header {
+    background-color: rgb(145, 211, 250);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .account-info {
+    background-color: grey;
+    height: 100%;
+    width: 20%;
+}
+
+.logo-witflix {
+    height: 4vh;
+}
+
+
+header nav a {
+    text-decoration: none;
+    
+}
+
+
+main { 
+    background-color: rgb(144, 178, 250);
+    height:52vh;
+    width: 100%;
+}
+
+section {
+    background-color: rgb(127, 255, 249);
+    height: 27vh;
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(0, 119, 255);
+    height:14vh;
+    width: 100%;
+}
